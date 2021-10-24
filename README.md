@@ -1,13 +1,18 @@
-# 005-road-inspection
-Image Classification for Public Road Inspection using Keras Neural Network and Wavelets for Feature Extraction.
+# Image Classification for public road defect using CNN and Wavelet for Feature Extraction.
 
 ## Introduction
-The purpose of the project was to provide an automatic labeling of road through both API for future development of mobile reporting app and the GUI to be used by field engineer for fast labeling during after the inspection.
+The purpose of the project was to provide automatic labeling of road defects through both API & desktop GUI. API was meant for future development of the mobile reporting app and the GUI is to be used directly by the field engineer for quick labeling during the inspection.
+
+## Datasets
+The datasets consists of images of road defects in Indonesia, categorized into three, which are tidak retak (in a good condition), retak garis (line crack) and retak buaya (area crack).
+
+PS: Buaya means crocodile, the field engineers/technicians use this term because of the resemblance of the road defect and crocodile leather.
 
 ## Methods
-The features extracted using 2 dimensional wavelet and trained using convolutional neural networks.
+The features of images were extracted using a 2-dimensional wavelet and a convolutional neural networks algorithm was used for training the model.
 
 ## Results
+The model performance achieved 94% accuracy.
 
 ### Classification Report
 ![Report](assets/img/report.png)
